@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Hashnest Market Depth",
+  "description": "Shows the current market depth (in BTC) for the buy and sell orders on the hasnest.com market page",
+  "version": "1.0",
+  "background": {
+    "scripts": ["index.js"]
+  },
+  "browser_action": {
+    "default_icon": "icon-32x32.png",
+    "default_title": "Show market depth"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
