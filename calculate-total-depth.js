@@ -23,4 +23,6 @@ function ahrCalculateMarketDepth() {
   })
 }
 
-ahrCalculateMarketDepth();
+setInterval(() => {
+  ahrCalculateMarketDepth();
+}, 1000);
